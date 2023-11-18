@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:rgb(19, 82, 164), 167, 118);
+    background: #fff;
 }
 /* -\; */
 .search{
