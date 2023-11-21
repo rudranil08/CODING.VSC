@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="picker.css">
+  <title>Randomizer App</title>
+</head>
+<body>
+  <button id="howToUseButton">How to use this app</button>
+  <div class="container">
+    <div class="input-section">
+      <h1>Randomizer App</h1>
+      <textarea id="inputItems" placeholder="Enter items separated by commas"></textarea>
+      <br>
+      <button id="generateButton">Generate Items</button>
+    </div>
+    <div class="result-section">
+      <button id="randomButton" disabled>Generate Random Item</button>
+      <div id="result"></div>
+    </div>
+    <svg viewBox="0 0 1440 100" preserveAspectRatio="none" class="squiggly-line">
+        <path fill="#222" d="M0,96L60,80C120,64,240,32,360,42.7C480,53,600,107,720,122.7C840,139,960,117,1080,96C1200,75,1320,53,1380,42.7L1440,32L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+      </svg>
+  </div>
+  
+  <script src="picker.js"></script>
+</body>
+</html>
