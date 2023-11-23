@@ -1,0 +1,60 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+  }
+  
+  .calculator {
+    width: 420px;
+    border-radius: 8px;
+    background-color: #333;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 15px;
+    font-size: 24px;
+    border: none;
+    background-color: #ffffff;
+    text-align: right;
+    outline: none;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    color: grey;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: #333 0.3s ease-in;
+  }
+  
+  button:hover {
+    background-color: #d4d4d4;
+    transition: 0.5s ease;
+  }
+  
