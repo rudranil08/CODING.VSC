@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Paper App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button id="clear-colors" class="clear-button">Clear Colors</button>
+  
+  <div class="color-picker">
+    <input type="color" id="color" value="#ff0000">
+    <button id="add-color">Add Color</button>
+    <div id="color-info" class="hidden">
+      <p id="hex-info"></p>
+      <p id="rgb-info"></p>
+    </div>
+    <input type="text" id="hex-input" placeholder="Enter HEX code">
+    <button id="show-color">Show Color</button>
+    <button id="know-more">Know More</button>
+  </div>
+  
+  <div class="color-papers"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
