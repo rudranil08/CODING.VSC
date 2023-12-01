@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Schedule App</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .top-right-link {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 8px 16px; 
+      background-color: #333; 
+      color: #ccc;
+      text-decoration: none; 
+      font-family: Poppins;
+      border: none; 
+      border-radius: 4px; 
+      transition: 0.6s #fff ease-in;
+    }
+    .top-right-link:hover {
+      background-color: black; 
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Study Schedule App</h1>
+    <a href="howtouse.html" class="top-right-link">How to Use</a>
+  </header>
+  
+  <main class="container">
+    <section class="tasks">
+      <h2>Tasks</h2>
+      <ul id="taskList">
+      </ul>
+      <form id="taskForm">
+        <input type="text" id="taskInput" placeholder="Add a task...">
+        <input type="date" id="datePicker">
+        <input type="time" id="timePicker">
+        <button type="submit" id="addTask">Add</button>
+      </form>
+      <button id="clearCompleted">Clear Completed</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
